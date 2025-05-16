@@ -1,33 +1,31 @@
-# Rastreamento-de-Objetos
+# Rastreamento de Objetos
 
-## Descrição do projeto:
-Esse projeto rastreia os objetos selecionados e faz a identificação de acordo com sua forma.
+## Descrição do projeto  
+Este projeto realiza o rastreamento de objetos selecionados e identifica-os com base em sua forma, utilizando técnicas de visão computacional e aprendizado de máquina.
 
-## Instruções de instalação:
-  Passo 1: Baixe o Vscode.
-  Passo 2: Baixe o Anaconda Navigador.
-  Passo 3: Baixe Iriun WebCam em seu computador e Celular (Opcional caso o seu computador não tenha uma Webcam)
-  Passo 4: Use o teachablemachine para rastrear os objetos que você deseja.
-  Passo 5: Treine os modelo.
-  Passo 6: Exporte o seu modelo em TensorFlow no formato keras.
-  Passo 7: Baixe o arquivo (classficacao_5_objetos-v4), esse é o código que vai rodar nosso projeto.
-  Passo 8: Baixe o arquivo (env_teste_PI_2024), esse é o ambiente virtual que já está com todas as depedências que serão usadas no Anaconda Navigador.
+## Instruções de instalação  
+1. Instale o [Visual Studio Code (VS Code)](https://code.visualstudio.com/).  
+2. Instale o [Anaconda Navigator](https://www.anaconda.com/products/distribution).  
+3. (Opcional) Instale o [Iriun Webcam](https://iriun.com/) no computador e no celular, caso seu computador não possua webcam.  
+4. Utilize o [Teachable Machine](https://teachablemachine.withgoogle.com/) para criar o modelo de rastreamento dos objetos desejados.  
+5. Treine o modelo com as classes de objetos que deseja reconhecer.  
+6. Exporte o modelo no formato Keras (.h5) para TensorFlow.  
+7. Baixe o arquivo `classificacao_5_objetos-v4.py`, que contém o código principal do projeto.  
+8. Baixe o arquivo `env_teste_PI_2024.yml`, que é o ambiente virtual com todas as dependências configuradas para o Anaconda Navigator.
 
-## Instruções de uso:
-  Passo 1: Crie uma pasta nova no seu computador, ela será usada para guarda todos os arquivos que vamos usar.
-  Passo 2: Extrai o arquivo keras que você baixou dentro dessa pasta.
-  Passo 3: Cole o (arquivo classficacao_5_objetos-v4) que você tinha baixo.
-  Passo 4: Abra o Anaconda Navigador.
-  Passo 5: Vá em Environments e importe o arquivo ambiente virtual (env_teste_PI_2024) que você baixou.
-  Passo 6: Com o Ambiente Virtual selecionado, abra o Vscode pelo proprio Anaconda Navigador.
-  Passo 7: Com Vscode aberto, Clique em New folder (Abrir nova pasta).
-  Passo 8: Abra a pasta onde você guardou os arquivos.
-  Passo 9: Clique no arquivo (classficacao_5_objetos-v4).
-  Passo 10: Confira se o Ambiente Virtual (env_teste_PI_2024) está selecionado.
-  Passo 11: Execute o Projeto.
+## Instruções de uso  
+1. Crie uma nova pasta no seu computador para armazenar todos os arquivos do projeto.  
+2. Extraia o arquivo do modelo Keras (.h5) dentro dessa pasta.  
+3. Copie o arquivo `classificacao_5_objetos-v4.py` para essa mesma pasta.  
+4. Abra o Anaconda Navigator.  
+5. Na aba *Environments*, importe o ambiente virtual a partir do arquivo `env_teste_PI_2024.yml`.  
+6. Com o ambiente virtual ativado, abra o VS Code pelo próprio Anaconda Navigator.  
+7. No VS Code, abra a pasta onde os arquivos estão armazenados.  
+8. Abra o arquivo `classificacao_5_objetos-v4.py`.  
+9. Verifique se o ambiente virtual `env_teste_PI_2024` está selecionado no VS Code.  
+10. Execute o projeto.
 
-Obs: Em caso de algum erro no código, Verifique se o seu arquivo "keras.model.h5" está com underline(_) ao invés de ponto(.),
-se estiver errado faça a alteração no arquivo e não no código.
+**Observação:** Caso ocorra algum erro relacionado ao arquivo do modelo, verifique se o nome do arquivo `keras.model.h5` está com underline (_) ao invés de ponto (.). Caso esteja incorreto, altere o nome do arquivo, não o código.
 
-## Créditos:
-Realizado no laboratório de Sistemas de Informação da UFOPA
+## Créditos  
+Projeto realizado no Laboratório de Sistemas de Informação da UFOPA.
